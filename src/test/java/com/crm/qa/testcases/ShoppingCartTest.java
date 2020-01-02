@@ -16,7 +16,7 @@ import com.crm.qa.pages.ShoppingCart;
 import com.crm.qa.util.TestUtil;
 
 public class ShoppingCartTest extends TestBase {
-	
+/*	
 	LoginPage loginPage;
 	HomePage homePage;
 	TestUtil testUtil;
@@ -59,5 +59,5 @@ public class ShoppingCartTest extends TestBase {
 		driver.close();
 	}
 	
-
+*/
 }

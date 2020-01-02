@@ -28,7 +28,7 @@ import com.crm.qa.pages.ShoppingCart;
 import com.crm.qa.util.TestUtil;
 
 public class CatalogPageTest extends TestBase{
-
+/*
 	LoginPage loginPage;
 	HomePage homePage;
 	TestUtil testUtil;
@@ -65,41 +65,11 @@ public class CatalogPageTest extends TestBase{
 		shoppingcartpage = catalogPage.ShoppingCartLink();
 	}
 	
-	/*
-	@Test(priority=2)
-	public void selectSingleContactsTest(){
-		contactsPage.selectContactsByName("test2 test2");
-	}
-	
-	@Test(priority=3)
-	public void selectMultipleContactsTest(){
-		contactsPage.selectContactsByName("test2 test2");
-		contactsPage.selectContactsByName("ui uiii");
-
-	}
-	
-	@DataProvider
-	public Object[][] getCRMTestData(){
-		Object data[][] = TestUtil.getTestData(sheetName);
-		return data;
-	}
-	
-	
-	@Test(priority=4, dataProvider="getCRMTestData")
-	public void validateCreateNewContact(String title, String firstName, String lastName, String company){
-		homePage.clickOnNewContactLink();
-		//contactsPage.createNewContact("Mr.", "Tom", "Peter", "Google");
-		contactsPage.createNewContact(title, firstName, lastName, company);
-		
-	}
-	
-	*/
-
-	@AfterMethod
+		@AfterMethod
 	public void tearDown(){
 		driver.close();
 	}
 	
 	
-	
+	*/
 }

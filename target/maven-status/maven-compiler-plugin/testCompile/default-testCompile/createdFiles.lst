@@ -1,3 +1,4 @@
+com\crm\qa\testcases\ShoppingCartTest.class
+com\crm\qa\testcases\CatalogPageTest.class
 com\crm\qa\testcases\HomePageTest.class
-com\crm\qa\testcases\HotelsPageTest.class
 com\crm\qa\testcases\LoginPageTest.class
