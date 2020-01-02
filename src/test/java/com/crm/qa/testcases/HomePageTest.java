@@ -17,7 +17,7 @@ import com.crm.qa.pages.LoginPage;
 import com.crm.qa.util.TestUtil;
 
 public class HomePageTest extends TestBase {
-	/*
+	
 	LoginPage loginPage;
 	HomePage homePage;
 	TestUtil testUtil;
@@ -43,7 +43,7 @@ public class HomePageTest extends TestBase {
 		String homePageTitle = homePage.verifyHomePageTitle();
 		Assert.assertEquals(homePageTitle, "My account - My Store","Home page title not matched");
 	}
-	
+	/*
 	@Test(priority=2)
 	public void verifyUserNameTest() {
 		Assert.assertEquals(homePage.verifyCorrectUserName(),prop.getProperty("fullname"));
@@ -53,7 +53,9 @@ public class HomePageTest extends TestBase {
 	public void verifyCatalogPageTest() throws InterruptedException{
 		catalogPage = homePage.clickOnDressLink();
 	}
+    */
 	
+	/*
 	@AfterMethod
 	public void tearDown() {
 	
