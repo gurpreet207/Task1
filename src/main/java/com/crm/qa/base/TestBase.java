@@ -49,17 +49,19 @@ public class TestBase {
 	
 	
 	public static void initialization() throws MalformedURLException{
-		/*
+		
+		// Define desired capabilities
 		DesiredCapabilities cap = new DesiredCapabilities();
 		cap.setBrowserName("chrome");
-		cap.setPlatform(Platform.WIN10);
+		cap.setPlatform(Platform.WINDOWS);
 		
-		//ChromeOptions options= new ChromeOptions(); 
-		//options.merge(cap);
+		// Chrome options definitions
+		ChromeOptions options= new ChromeOptions(); 
+		options.merge(cap);
+		
 		String hubUrl="http://10.0.75.1:4444/wd/hub/";
-		driver= new RemoteWebDriver(new URL(hubUrl),cap);
-		//driver= new RemoteWebDriver(new URL(hubUrl),options);
-		*/
+		driver= new RemoteWebDriver(new URL(hubUrl),options);
+		
 		
 		String browserName = prop.getProperty("browser");
 		
