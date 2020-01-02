@@ -43,12 +43,12 @@ public class HomePageTest extends TestBase {
 		String homePageTitle = homePage.verifyHomePageTitle();
 		Assert.assertEquals(homePageTitle, "My account - My Store","Home page title not matched");
 	}
-	/*
+	
 	@Test(priority=2)
 	public void verifyUserNameTest() {
 		Assert.assertEquals(homePage.verifyCorrectUserName(),prop.getProperty("fullname"));
 	}
-	
+	/*
 	@Test(priority=3)
 	public void verifyCatalogPageTest() throws InterruptedException{
 		catalogPage = homePage.clickOnDressLink();
