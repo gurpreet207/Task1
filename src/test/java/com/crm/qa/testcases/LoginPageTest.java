@@ -31,17 +31,10 @@ public class LoginPageTest extends TestBase{
 		Assert.assertEquals(title, "My Store");
 	}
 	
-	/*@Test(priority=2)
-	public void crmLogoImageTest(){
-		boolean flag = loginPage.validateCRMImage();
-		Assert.assertTrue(flag);
-	}*/
-	
-	@Test(priority=3)
+	@Test(priority=2)
 	public void loginTest(){
 		homePage = loginPage.login(prop.getProperty("username"), prop.getProperty("password"));
 	}
-	
 	
 	
 	@AfterMethod
