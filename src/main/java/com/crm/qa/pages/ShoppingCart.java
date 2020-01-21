@@ -7,7 +7,7 @@ import org.openqa.selenium.support.PageFactory;
 import com.crm.qa.base.TestBase;
 
 public class ShoppingCart extends TestBase {
-	
+	/*
 	@FindBy(xpath ="//*[@id='layer_cart']//following::*[@class='btn btn-default button button-medium']//following::*[contains(text(),'Proceed to checkout')]")
 	WebElement checkout;
 	
@@ -25,6 +25,6 @@ public class ShoppingCart extends TestBase {
 	        return new CheckOut();
 		}
 		
-		
+		*/
 		
 }

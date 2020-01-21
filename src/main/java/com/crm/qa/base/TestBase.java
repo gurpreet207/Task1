@@ -49,7 +49,7 @@ public class TestBase {
 	}
 	
 	
-	public static void initialization() throws MalformedURLException{
+	public static void initialization() {
 		/*
 		//********************Selenium Grid*************************
 		if (prop.getProperty("browser").equals("chrome")){
