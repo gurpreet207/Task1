@@ -17,7 +17,7 @@ import com.crm.qa.pages.LoginPage;
 import com.crm.qa.util.TestUtil;
 
 public class HomePageTest extends TestBase {
-	
+	/*
 	LoginPage loginPage;
 	HomePage homePage;
 	TestUtil testUtil;
@@ -55,11 +55,11 @@ public class HomePageTest extends TestBase {
 	}
     */
 	
-	
+	/*
 	@AfterMethod
 	public void tearDown() {
 	
 		driver.close();
 	}
-	
+	*/
 }
