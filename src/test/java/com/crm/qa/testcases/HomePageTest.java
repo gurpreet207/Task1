@@ -16,7 +16,7 @@ import com.crm.qa.pages.CatalogPage;
 import com.crm.qa.pages.LoginPage;
 import com.crm.qa.util.TestUtil;
 
-public class HomePageTest extends TestBase {
+public class HomePageTest /*extends TestBase*/ {
 	/*
 	LoginPage loginPage;
 	HomePage homePage;
