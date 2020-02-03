@@ -2,32 +2,32 @@
 <testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Command line suite" duration-ms="128975" started-at="2020-02-02T22:43:17 IST" finished-at="2020-02-02T22:45:26 IST">
+  <suite name="Command line suite" duration-ms="40266" started-at="2020-02-03T05:30:24 IST" finished-at="2020-02-03T05:31:04 IST">
     <groups>
     </groups>
-    <test name="Command line test" duration-ms="128975" started-at="2020-02-02T22:43:17 IST" finished-at="2020-02-02T22:45:26 IST">
+    <test name="Command line test" duration-ms="40266" started-at="2020-02-03T05:30:24 IST" finished-at="2020-02-03T05:31:04 IST">
       <class name="com.crm.qa.testcases.LoginPageTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.crm.qa.testcases.LoginPageTest@e25b2fe]" name="setUp" is-config="true" duration-ms="43122" started-at="2020-02-02T22:43:17 IST" finished-at="2020-02-02T22:44:00 IST">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.crm.qa.testcases.LoginPageTest@e25b2fe]" name="setUp" is-config="true" duration-ms="17609" started-at="2020-02-03T05:30:24 IST" finished-at="2020-02-03T05:30:41 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="loginPageTitleTest()[pri:1, instance:com.crm.qa.testcases.LoginPageTest@e25b2fe]" name="loginPageTitleTest" duration-ms="21" started-at="2020-02-02T22:44:00 IST" finished-at="2020-02-02T22:44:00 IST">
+        <test-method status="PASS" signature="loginPageTitleTest()[pri:1, instance:com.crm.qa.testcases.LoginPageTest@e25b2fe]" name="loginPageTitleTest" duration-ms="97" started-at="2020-02-03T05:30:41 IST" finished-at="2020-02-03T05:30:41 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginPageTitleTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.crm.qa.testcases.LoginPageTest@e25b2fe]" name="tearDown" is-config="true" duration-ms="720" started-at="2020-02-02T22:44:00 IST" finished-at="2020-02-02T22:44:01 IST">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.crm.qa.testcases.LoginPageTest@e25b2fe]" name="tearDown" is-config="true" duration-ms="619" started-at="2020-02-03T05:30:41 IST" finished-at="2020-02-03T05:30:42 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.crm.qa.testcases.LoginPageTest@e25b2fe]" name="setUp" is-config="true" duration-ms="40777" started-at="2020-02-02T22:44:01 IST" finished-at="2020-02-02T22:44:42 IST">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.crm.qa.testcases.LoginPageTest@e25b2fe]" name="setUp" is-config="true" duration-ms="16271" started-at="2020-02-03T05:30:42 IST" finished-at="2020-02-03T05:30:58 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="loginTest()[pri:2, instance:com.crm.qa.testcases.LoginPageTest@e25b2fe]" name="loginTest" duration-ms="43582" started-at="2020-02-02T22:44:42 IST" finished-at="2020-02-02T22:45:25 IST">
+        <test-method status="PASS" signature="loginTest()[pri:2, instance:com.crm.qa.testcases.LoginPageTest@e25b2fe]" name="loginTest" duration-ms="4854" started-at="2020-02-03T05:30:58 IST" finished-at="2020-02-03T05:31:03 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.crm.qa.testcases.LoginPageTest@e25b2fe]" name="tearDown" is-config="true" duration-ms="673" started-at="2020-02-02T22:45:25 IST" finished-at="2020-02-02T22:45:26 IST">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.crm.qa.testcases.LoginPageTest@e25b2fe]" name="tearDown" is-config="true" duration-ms="766" started-at="2020-02-03T05:31:03 IST" finished-at="2020-02-03T05:31:04 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
